@@ -1,4 +1,4 @@
-# Device Name: SW1
+# Device Name: SW2
 # Location: Packet Tracer
 # Date: 04 Juli 2025
 # Engineer: SolveNet
@@ -24,3 +24,4 @@ Fa0/5       10,20
 !===========================!
 !      END OF CONFIG        !
 !===========================!
+
