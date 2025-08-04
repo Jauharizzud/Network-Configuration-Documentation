@@ -86,7 +86,7 @@ interface Vlan1
  no ip address
  shutdown
 !
-banner motd ^C<----Authentication Require---->^C
+banner motd ^C<----Authentication Required---->^C
 !
 !
 !
@@ -113,3 +113,4 @@ end
 !===========================!
 !      END OF CONFIG        !
 !===========================!
+
