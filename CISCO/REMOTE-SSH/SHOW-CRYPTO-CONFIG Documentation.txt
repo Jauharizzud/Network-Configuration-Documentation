@@ -1,0 +1,32 @@
+# Device Name: SW1
+# Location: Packet Tracer
+# Date: 05 Juli 2025
+# Engineer: SolveNet
+# Description: Show Crypto mypbukey rsa SW1 
+
+!===========================!
+!       CONFIGURATION       !
+!===========================!
+
+% Key pair was generated at: 0:3:3 UTC March 1 1993
+Key name: SW1.Solve.net
+ Storage Device: not specified
+ Usage: General Purpose Key
+ Key is not exportable.
+ Key Data:
+ 00006275  000016dd  0000243d  00005486  000071e5  000028c7  00004a12  00007b91
+ 00003163  000051ad  00000982  00003e17  0000598c  00003346  00005ab9  00005ba6
+ 00007380  00001ac1  00005c7f  000024f7  000045e9  000049b4  0000495c  2c7d
+% Key pair was generated at: 0:3:3 UTC March 1 1993
+Key name: SW1.Solve.net.server
+Temporary key
+ Usage: Encryption Key
+ Key is not exportable.
+ Key Data:
+ 0000133a  00004b55  00004800  0000653e  00000d35  000029ec  00001ae1  000023e2
+ 000021b0  00001888  00007326  00003609  00000498  000064f1  00006ac4  000003e2
+ 00001b36  000045df  000069e7  00006ffa  00002cb1  00005969  00007b93  6951
+
+!===========================!
+!      END OF CONFIG        !
+!===========================!
