@@ -2,10 +2,10 @@
 # Location: Packet Tracer
 # Date: 05 Juli 2025
 # Engineer: SolveNet
-# Description: Remote SSH configuration SW1 
+# Description: Show ip int  configuration SW1 
 
 !===========================!
-!       SHOW IP INT         !
+!       SHOW IP INT BR      !
 !===========================!
 
 Interface              IP-Address      OK? Method Status                Protocol 
@@ -40,4 +40,5 @@ Vlan1                  192.168.10.10   YES manual up                    up
 !===========================!
 !      END OF CONFIG        !
 !===========================!
+
 
