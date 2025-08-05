@@ -5,7 +5,7 @@
 # Description: Remote SSH configuration SW1 
 
 !===========================!
-!       CONFIGURATION       !
+!       SHOW IP INT         !
 !===========================!
 
 Interface              IP-Address      OK? Method Status                Protocol 
@@ -40,3 +40,4 @@ Vlan1                  192.168.10.10   YES manual up                    up
 !===========================!
 !      END OF CONFIG        !
 !===========================!
+
