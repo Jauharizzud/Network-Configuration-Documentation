@@ -5,7 +5,7 @@
 # Description: Show Crypto mypbukey rsa SW1 
 
 !===========================!
-!       CONFIGURATION       !
+!       SHOW CRYPTO         !
 !===========================!
 
 % Key pair was generated at: 0:3:3 UTC March 1 1993
@@ -30,3 +30,4 @@ Temporary key
 !===========================!
 !      END OF CONFIG        !
 !===========================!
+
