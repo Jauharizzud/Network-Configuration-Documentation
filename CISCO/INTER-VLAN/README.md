@@ -70,6 +70,3 @@ On **Switch (SW1)**:
 
 This config implements **Router-on-a-Stick (ROAS)**, commonly used in small networks or labs for **inter-VLAN communication** without a Layer 3 switch.
 
-
-Semangat terus dokumentasinya brokk, makin rapih makin kece buat portfolio 🔥
-
