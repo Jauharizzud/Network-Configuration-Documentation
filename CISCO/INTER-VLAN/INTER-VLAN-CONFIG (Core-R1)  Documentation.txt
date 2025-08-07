@@ -1,0 +1,115 @@
+# Device Name: Core-R1
+# Location: Packet Tracer
+# Date: 07 Juli 2025
+# Engineer: SolveNet
+# Description: INTER VLAN Configuration Core-R1 
+
+!===========================!
+!       CONFIGURATION       !
+!===========================!
+
+Building configuration...
+
+Current configuration : 1110 bytes
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+service password-encryption
+security passwords min-length 6
+!
+hostname Core-R1
+!
+!
+!
+enable secret 5 $1$mERr$q.MA2tj.WFptzvbifq/1i.
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+license udi pid CISCO2811/K9 sn FTX1017933K-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+no ip domain-lookup
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ no ip address
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/0.10
+ description SubInterface VLAN10
+ encapsulation dot1Q 10
+ ip address 192.168.10.1 255.255.255.0
+!
+interface FastEthernet0/0.20
+ description SubInterface VLAN20
+ encapsulation dot1Q 20
+ ip address 192.168.20.1 255.255.255.0
+!
+interface FastEthernet0/1
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+!
+banner motd ^C<---- Authentication Required ---->^C
+!
+!
+!
+!
+line con 0
+ exec-timeout 5 0
+ password 7 0822455D0A1657
+ login
+!
+line aux 0
+!
+line vty 0 3
+ exec-timeout 5 0
+ password 7 0822455D0A1656
+ login
+line vty 4
+ login
+!
+!
+!
+end
+
+
+!===========================!
+!      END OF CONFIG        !
+!===========================!
