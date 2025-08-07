@@ -59,12 +59,12 @@ On **Switch (SW1)**:
 
 ## 📂 Files in This Repo
 
-| Filename                                | Description                                 |
-|----------------------------------------|---------------------------------------------|
-| `INTERVLAN-CoreR1-ShowRun.txt`         | `show running-config` on router             |
-| `INTERVLAN-CoreR1-ShowIPInterface.txt` | Output from `show ip interface brief`       |
-| `INTERVLAN-CoreR1-RoutingTable.txt`    | Output from `show ip route`                 |
-| `INTERVLAN-Lab.pkt`                    | Cisco Packet Tracer simulation file         |
+| Filename                                             | Description                                 |
+|------------------------------------------------------|---------------------------------------------|
+| `INTER-VLAN-COnfig (Core-R1) Documentation.txt`      | `show running-config` on router             |
+| `INTER-VLAN-CONFIG (SW1) Documentation.txt`          | Output from `show ip interface brief`       |
+| `INTER-VLAN-Topology.txt`                            | Output from `show ip route`                 |
+| `INTER-VLAN-CONFIG Lab.pkt`                          | Cisco Packet Tracer simulation file         |
 
 ## 📌 Notes
 
